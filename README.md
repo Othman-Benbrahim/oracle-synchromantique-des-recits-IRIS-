@@ -40,6 +40,8 @@ oracle-synchromantique-iris/
     ├── 05_garde_fous_ethique.md              (double voix, IPC, statuts, contre-signe)
     ├── 06_archetypes_thematiques.md          (géopo, tech, bio, jeu d'influence)
     └── 07_style_devoilement.md               (posture d'écrivain-assistant)
+    └── 08_gabarit_narratif.md                (structure de création de récit)
+
 ```
 
 ## Installation
