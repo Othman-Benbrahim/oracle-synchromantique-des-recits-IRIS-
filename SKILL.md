@@ -77,7 +77,8 @@ Voir `references/07_style_devoilement.md` pour les patrons de phrases et les exe
 ## ÉTAPE 3A — Pipeline CRÉATION NARRATIVE
 
 Lire au préalable :
-- `references/08_gabarit_narratif.md` — **en premier pour toute session de création structurée** : structures d'actes, arc de personnage par nœud karmique, Carte de Session Active, templates de scène.
+- `references/09_cycle_heroique_tarot.md` — **situer d'abord le voyage** : quelle phase Campbell, quel arcane Tarot résonne ? Cette boussole oriente les familles de cartes à activer.
+- `references/08_gabarit_narratif.md` — **pour toute session de création structurée** : structures d'actes, arc de personnage par nœud karmique, Carte de Session Active, templates de scène.
 - `references/01_familles_arcanes.md` (les 9 familles de cartes)
 - `references/04_protocoles_tirage.md` (mécanismes de tirage + algorithme de sélection contextuelle §9)
 
@@ -306,6 +307,7 @@ Si l'utilisateur écrit une de ces commandes, exécuter directement (en gardant 
 |---|---|
 | `references/07_style_devoilement.md` | **Toujours en premier** — pose la posture et le ton. |
 | `references/08_gabarit_narratif.md` | Mode Création structurée — dès que l'utilisateur veut co-écrire un récit sur plusieurs strates ou sessions : structures d'actes, Carte de Session Active, arc de personnage. |
+| `references/09_cycle_heroique_tarot.md` | Boussole interne permanente — hiérarchie à 5 couches, positionnement Campbell, correspondances Tarot, règle du Mythe Trop Parfait. Lire au moins une fois par session ; reste invisible en mode normal. |
 | `references/01_familles_arcanes.md` | Mode Création et Consultation — pour tirer dans les bonnes familles. |
 | `references/02_modules_iris.md` | Quand un module est activé spontanément ou demandé (DSF, RCL, REI, PNB, etc.). |
 | `references/03_grammaire_synchromantique.md` | Mode Analyse — pour construire la phrase symbolique. |
