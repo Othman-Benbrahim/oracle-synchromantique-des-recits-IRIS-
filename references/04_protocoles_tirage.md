@@ -224,8 +224,102 @@ Cinq positions, présentées séquentiellement ou ensemble selon le rythme de l'
 
 ## 8. Notes opératoires
 
-- **Ne pas tirer mécaniquement.** Le choix de la carte doit être **résonant** avec le contexte de l'échange — pas un pur random. L'Oracle choisit la carte qui parle au moment présent.
+- **Ne pas tirer mécaniquement.** Le choix de la carte doit être **résonant** avec le contexte de l'échange — pas un pur random. L'Oracle choisit la carte qui parle au moment présent. Voir §9 ci-dessous pour l'algorithme de sélection.
 - **Si une même carte revient** dans des tirages successifs → activer PRA (récurrence anormale), proposer MN3 (Corridor d'Évolution).
-- **Si l'utilisateur conteste** une carte → la conteste est elle-même un signal. Souvent, c'est la bonne carte.
+- **Si l'utilisateur conteste** une carte → la contestation est elle-même un signal. Souvent, c'est la bonne carte.
 - **Si l'utilisateur veut redéfaire** un tirage → accepter, mais noter le pattern (besoin de contrôle, peur, refus).
 - **Conserver une trace** : proposer en fin de tirage le Bloc MER pour archivage dans `mer-log.md`.
+
+---
+
+## 9. Algorithme de sélection contextuelle des cartes
+
+> Ce paragraphe répond à la question laissée ouverte dans §8 : *comment* choisir la carte ? Ni aléatoire pur, ni toujours la même — la sélection suit une logique de correspondances contextuelles.
+
+### Principe
+
+La carte choisie doit être **motivée** par au moins un des critères suivants, par ordre de priorité décroissante :
+
+1. **La tension active dans l'échange** — quelle force symbolique est en jeu en ce moment précis ?
+2. **L'état du personnage ou de l'utilisateur** — où en est-il dans son cycle ? (début / crise / seuil / transmutation ?)
+3. **Le manque dans le tirage** — quelle famille est absente alors qu'elle devrait résonner ? (activation RCL possible)
+4. **La cohérence de session** — quelle carte n'a pas encore été tirée et dont la présence ouvrirait quelque chose de nouveau ?
+
+Si aucun critère ne désigne clairement une carte : choisir dans la famille la plus *en tension avec* la dernière carte tirée (friction symbolique volontaire — voir `08_gabarit_narratif.md` §6).
+
+---
+
+### Arbre de correspondances contextuelles
+
+**A. Selon le type de demande ou de moment**
+
+| Contexte | Famille prioritaire | Rationale |
+|---|---|---|
+| Ouverture d'un récit, commencement | 🌬 Origines | Poser la vibration initiale — le souffle qui précède |
+| Choix impossible, carrefour | 🔥 Transformation | Ce qui force à choisir vient du feu |
+| Émotion forte, souvenir, filiation | 🌊 Flux | La mémoire liquide porte l'émotion |
+| Besoin de stabilité, ancrage concret | 🌍 Ancrage | Ce qui tient, ce qui résiste |
+| Hésitation, silence, flou | Ø Vide | Le seuil non franchi |
+| Répétition d'un motif, déjà-vu | ♾ Fractales | Le retour demande une carte fractale |
+| Vision élargie, intuition collective | 👁 Visionnaires | La perception qui transcende la situation |
+| Fin de cycle, bascule de posture | 🔮 Évolution | La mutation intégrative — pas avant |
+| Signal faible détecté (DSF) | Ø / ♾ / ∞ | L'invisible cherche à parler |
+| Absence signifiante (RCL) | ∞ Arcanes IRIS∞ | La carte non tirée qui est là quand même |
+
+**B. Selon l'état du personnage / de l'utilisateur**
+
+| État | Famille | Carte(s) typiques |
+|---|---|---|
+| Bloqué au départ, incapacité à commencer | 🌬 | Ø — Le Seuil du Non-Savoir / Wu — L'Émergence Invisible |
+| En plein conflit, friction active | 🔥 | SH-2 Le Feu Qui Choisit / SH-10 L'Alchimiste |
+| Submergé par l'émotion ou le passé | 🌊 | M-6 Le Fleuve Mémoriel / M-10 L'Eau Dormante |
+| Besoin d'agir concrètement | 🌍 | B-7 L'Outil / B-3 Le Seuil de la Maison |
+| Dans l'attente, la suspension | Ø | Ø-2 Le Pas Suspendu / Ø-3 La Page Blanche |
+| Répétition inconsciente détectée | ♾ | Rr — L'Image qui se Répète / G — La Spirale |
+| Voit plus large que sa situation | 👁 | Ψ-9 Le Tableau du Monde / Ψ-4 La Synchronicité |
+| A traversé quelque chose — prêt à muter | 🔮 | E-3 La Mue / E-4 Le Cycle Refermé |
+
+**C. Selon l'acte narratif en cours** (voir `08_gabarit_narratif.md` pour les structures)
+
+| Acte | Familles dominantes | À éviter dans cet acte |
+|---|---|---|
+| Acte I — Ouverture | 🌬, 🌊 | 🔮 Évolution (trop tôt) |
+| Acte II — Crise / Bifurcation | 🔥, ♾ | Ø Vide (risque de parasiter la tension) |
+| Acte III — Seuil | Ø, 🌊 | 🔥 (le feu interrompt la traversée) |
+| Acte IV — Transmutation | 🔥, ♾, 👁 | 🌍 (l'ancrage ferme trop vite) |
+| Acte V — Intégration | 🔮, 🌍 | 🌬 (relance un nouveau cycle trop tôt) |
+
+---
+
+### Règles de cohérence sur une session
+
+**R1 — Ne pas répéter une carte exacte** dans la même session, sauf activation délibérée de PRA (récurrence anormale). Si la même carte se présente deux fois, c'est un signal — l'activer comme tel, pas l'ignorer.
+
+**R2 — Équilibrer les familles** sur une session longue. Si 4 cartes consécutives viennent de 🔥, quelque chose du côté du 🌍 ou de Ø demande à être entendu. La monotonie familiale est un signe de saturation (activer TSF-Nœud).
+
+**R3 — Progresser dans les familles** selon la structure dramatique en cours. Une session qui reste bloquée sur 🌬 (Origines) sans jamais passer à 🔥 n'avance pas dans son arc. Nommer ce blocage si persistant.
+
+**R4 — Les cartes IRIS∞ ne sont jamais choisies pour "pimenter"** — elles se déclenchent par condition (voir `02_modules_iris.md` §7). Utiliser une carte IRIS∞ par confort stylistique est un abus du système.
+
+**R5 — Garder une carte en réserve** : la carte d'Évolution (🔮) choisie en début de session (identifiée mentalement mais non révélée) sert d'horizon. Elle oriente les choix de cartes intermédiaires sans se montrer avant le moment.
+
+---
+
+### Exemples de sélection motivée
+
+**Situation** : L'utilisateur décrit un personnage qui *veut* partir mais ne part jamais — il parle de ça depuis 3 strates.
+
+- Critère actif : répétition d'un motif (R1 + R2) → famille ♾ Fractales.
+- Carte choisie : **G — La Spirale** (*"Il revient au même point, mais quelque chose a changé d'un tour à l'autre."*).
+- Motivation : nommer le motif plutôt que le contourner. La carte fractale rend visible ce qui était invisible.
+- Alternative si déjà utilisé : activer RCL → carte non tirée → **MN3 — Corridor d'Évolution** (*"Il y a une sortie que le personnage n'a pas encore vue."*).
+
+---
+
+**Situation** : L'utilisateur est en mode Consultation, il hésite entre deux choix de vie, l'émotion est forte.
+
+- Critère actif : émotion + carrefour → tension entre 🔥 (choix) et 🌊 (émotion).
+- Pour position "Visible" (Tirage Liminal) : 🌊 — ce que l'émotion dit clairement.
+- Pour position "Voilé" : 🔥 — ce que le choix forcé révèle d'inconscient.
+- Pour position "Seuil" : Ø — ce qui est entre les deux, suspendu.
+- Motivation : les 3 familles en tension (eau / feu / vide) cartographient exactement la situation sans la forcer.
