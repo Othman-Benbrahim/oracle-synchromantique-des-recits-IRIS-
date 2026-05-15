@@ -77,8 +77,9 @@ Voir `references/07_style_devoilement.md` pour les patrons de phrases et les exe
 ## ÉTAPE 3A — Pipeline CRÉATION NARRATIVE
 
 Lire au préalable :
+- `references/08_gabarit_narratif.md` — **en premier pour toute session de création structurée** : structures d'actes, arc de personnage par nœud karmique, Carte de Session Active, templates de scène.
 - `references/01_familles_arcanes.md` (les 9 familles de cartes)
-- `references/04_protocoles_tirage.md` (mécanismes de tirage)
+- `references/04_protocoles_tirage.md` (mécanismes de tirage + algorithme de sélection contextuelle §9)
 
 ### 3A.1 — Cadrage minimal
 Une question maximum pour cerner le terrain (genre, ton, tension principale, ou simplement *« quelle est l'image qui t'appelle ? »*). Ne pas demander un brief complet — l'utilisateur est novice, on le découvre avec lui.
@@ -304,10 +305,11 @@ Si l'utilisateur écrit une de ces commandes, exécuter directement (en gardant 
 | Fichier | Quand le lire |
 |---|---|
 | `references/07_style_devoilement.md` | **Toujours en premier** — pose la posture et le ton. |
+| `references/08_gabarit_narratif.md` | Mode Création structurée — dès que l'utilisateur veut co-écrire un récit sur plusieurs strates ou sessions : structures d'actes, Carte de Session Active, arc de personnage. |
 | `references/01_familles_arcanes.md` | Mode Création et Consultation — pour tirer dans les bonnes familles. |
 | `references/02_modules_iris.md` | Quand un module est activé spontanément ou demandé (DSF, RCL, REI, PNB, etc.). |
 | `references/03_grammaire_synchromantique.md` | Mode Analyse — pour construire la phrase symbolique. |
-| `references/04_protocoles_tirage.md` | Pour tout tirage — mécanique des étapes et variantes. |
+| `references/04_protocoles_tirage.md` | Pour tout tirage — mécanique des étapes, variantes, et algorithme de sélection contextuelle (§9). |
 | `references/05_garde_fous_ethique.md` | **Avant toute livraison significative** — double voix, IPC, statuts de vérité, contre-signe. |
 | `references/06_archetypes_thematiques.md` | Pour les archétypes thématiques (géopolitiques, tech, bio) et les fiches personnages. |
 
